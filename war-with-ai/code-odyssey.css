@@ -1,0 +1,68 @@
+/* AI Odyssey Page Styles - Matches War with AI Theme */
+
+.ai-odyssey-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ai-odyssey-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.ai-odyssey-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ai-odyssey-image img {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.ai-odyssey-image img:hover {
+    transform: scale(1.05);
+}
+
+.ai-odyssey-text {
+    flex: 1;
+    padding: 30px;
+}
+
+.ai-odyssey-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #00a8ff;
+}
+
+.ai-odyssey-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+@media (max-width: 900px) {
+    .ai-odyssey-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .ai-odyssey-text {
+        padding: 20px 0;
+    }
+}
